@@ -41,7 +41,7 @@ cd AD-RESS---digital_wardrobe
 ```
 
 ### 2️⃣ 환경설정 `application.properties` 파일 추가
-
+- `src/main/` 경로에 resources 폴더를 직접 생성해주세요.
 - `src/main/resources/` 경로에 `application.properties` 파일을 직접 넣어주세요.
 - 이 파일에는 MongoDB 접속 정보, open ai와 aws s3의 api key 그리고 JWT 시크릿 키 등이 포함되어 있습니다.
 - **보안을 위해 해당 파일은 GitHub에 포함되어 있지 않으며, 따로 메일로 전달드렸습니다.**
